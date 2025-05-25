@@ -26,6 +26,9 @@ export const metadata = {
     siteName: "UMKM MU",
     type: "website",
   },
+  verification: {
+    google: "3gp_rgF3ZydHsjHP_Rsv9JiOgy-gLIi3grL-3pPp068", // cuma isi string tokennya aja
+  },
 }
 
 
