@@ -1,2 +1,9 @@
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://pengunjung-umkmmu.vercel.app
+
+# Sitemaps
+Sitemap: https://pengunjung-umkmmu.vercel.app/sitemap.xml

@@ -6,9 +6,28 @@ import { FavoritesProvider } from "@/lib/favorites-context"
 import type React from "react"
 
 export const metadata = {
-  title: "UMKM Showcase",
-  description: "Discover amazing local businesses and their unique products",
+  title: "UMKM MU - Direktori UMKM Kota MU",
+  description: "Temukan berbagai usaha lokal terbaik di Kota MU. Direktori lengkap UMKM dan produk-produk unggulan.",
+  keywords: [
+    "UMKM",
+    "UMKM MU",
+    "UMKM Kota MU",
+    "usaha kecil",
+    "usaha mikro",
+    "direktori UMKM",
+    "produk lokal",
+  ],
+  authors: [{ name: "UMKMMU Team" }],
+  creator: "UMKMMU",
+  openGraph: {
+    title: "UMKM MU - Direktori UMKM Kota MU",
+    description: "Temukan berbagai usaha lokal terbaik di Kota MU.",
+    url: "https://pengunjung-umkmmu.vercel.app",
+    siteName: "UMKM MU",
+    type: "website",
+  },
 }
+
 
 export default function RootLayout({
   children,
