@@ -5,5 +5,6 @@ module.exports = {
   sitemapSize: 7000,
   changefreq: 'weekly',
   priority: 0.7,
-  sourceDir: 'app', // ini penting kalau kamu pakai folder `app/`
-}
+  outDir: './public',
+  sourceDir: '.next', // <--- ini wajib kalau pake app router
+};
